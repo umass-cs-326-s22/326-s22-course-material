@@ -5,3 +5,5 @@
 At least what is left to Spring 2022!
 
 This is an experiment to see how this might work out in future offerings. Thank you for playing along.
+
+- [17 Heroku and SQL](17-heroku-and-sql/notes.md)

@@ -1,0 +1,16 @@
+{
+  "name": "01-debugging-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "start": "node index.js",
+    "debug": "node --inspect-brk index.js"
+  },
+  "author": "COMPSCI 326",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
