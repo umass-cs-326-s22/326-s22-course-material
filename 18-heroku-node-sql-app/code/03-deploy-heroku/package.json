@@ -1,0 +1,25 @@
+{
+  "name": "03-deploy-heroku",
+  "version": "1.0.0",
+  "description": "",
+  "main": "crud.js",
+  "type": "module",
+  "engines": {
+    "node": "16.11.0"
+  },
+  "scripts": {
+    "deploy": "copyfiles client/* server/* .env package*.json deploy",
+    "start": "node server/index.js",
+    "debug": "node --inspect-brk index.js"
+  },
+  "author": "Tim Richards",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "copyfiles": "^2.4.1"
+  }
+}

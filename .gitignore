@@ -1,5 +1,6 @@
 .DS_Store
 deploy
+*.pptx
 
 # Logs
 logs
