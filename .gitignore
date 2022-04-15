@@ -1,6 +1,9 @@
+# Custom
+~*.pptx
 .DS_Store
+.env
 deploy
-*.pptx
+deployed
 
 # Logs
 logs
