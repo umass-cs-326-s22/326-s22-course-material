@@ -165,7 +165,15 @@ Connection URL:
    postgres://UUUUUUUUUUU:PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP@ec2-3-229-252-6.compute-1.amazonaws.com:5432/d39m84tf0ubgio
 ```
 
-Copy the "Connection URL" value and paste it into the `.env` file as the value of the DATABASE_URL. Lastly, push to Heroku to deploy the application and open a browser window to the deployed application:
+Copy the "Connection URL" value and paste it into the `.env` file as the value of the DATABASE_URL. You will also need to add a property inside your `package.json` file to specify the version of Node.js that you are using. To determine the version of Node.js, run `node --version`. Then, use that version to include the following in the `package.json` file (here we assume the version is 16.11.0):
+
+```json
+  "engines": {
+  "node": "16.11.0"
+}
+```
+
+Lastly, add/commit the changes and push to Heroku to deploy the application and open a browser window to the deployed application:
 
 ```bash
 > git add .                         # important to save .env change
