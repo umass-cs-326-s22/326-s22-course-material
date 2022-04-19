@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- The browser prepends /client/ to the URLs below. -->
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="client.js"></script>
+    <title>CRUD</title>
+  </head>
+  <body>
+    <label for="id">Id</label>:
+    <input type="text" name="id" id="id" />
+    <br /><br />
+    <label for="name">Name</label>:
+    <input type="text" name="name" id="name" />
+    <br /><br />
+    <label for="age">Age</label>:
+    <input type="text" name="age" id="age" />
+    <br /><br />
+    <input type="button" value="Create" id="create" />
+    <input type="button" value="Read" id="read" />
+    <input type="button" value="Update" id="update" />
+    <input type="button" value="Delete" id="delete" />
+    <br /><br />
+    <div id="output"></div>
+    <div id="all"></div>
+  </body>
+</html>

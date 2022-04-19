@@ -1,0 +1,22 @@
+{
+  "name": "01-mongodb-ops",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "copyfiles *.js .env package*.json deploy",
+    "start": "node index.js",
+    "debug": "node --inspect-brk index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "mongodb": "^4.5.0"
+  },
+  "devDependencies": {
+    "copyfiles": "^2.4.1"
+  }
+}
